@@ -1,0 +1,50 @@
+# =============================================
+# Amazon ML Challenge 2026 - .gitignore
+# =============================================
+
+# === DATASETS (DO NOT PUSH - TOO LARGE) ===
+student_resource/dataset/
+student_resource/.DS_Store
+
+# === LARGE OUTPUT FILES ===
+output/candidate_pairs.tsv
+output/candidate_pairs_test.tsv
+output/candidate_pairs_train.tsv
+output/training_features.parquet
+output/matching_results.tsv
+
+# === SUBMISSION ZIP ===
+submission.zip
+
+# === macOS junk ===
+.DS_Store
+**/.DS_Store
+__MACOSX/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# === IDE / editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Logs / temp ===
+*.log
+*.tmp
